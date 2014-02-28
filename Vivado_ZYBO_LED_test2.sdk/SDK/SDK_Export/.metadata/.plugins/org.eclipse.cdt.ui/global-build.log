@@ -1,0 +1,125 @@
+04:18:37 **** Build of project led4_axi_lite_slave_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling standalone"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling iicps"
+"Compiling qspips"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling sdps"
+"Compiling uartps"
+"Compiling usbps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+
+**** Build of configuration Debug for project led4_axi_lite_slave ****
+
+Nothing to build for project led4_axi_lite_slave
+04:19:35 **** Auto Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+'Building file: ../src/led4_axi_lite_slave.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led4_axi_lite_slave.d" -MT"src/led4_axi_lite_slave.d" -o "src/led4_axi_lite_slave.o" "../src/led4_axi_lite_slave.c"
+'Finished building: ../src/led4_axi_lite_slave.c'
+' '
+'Building target: led4_axi_lite_slave.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/lib -o "led4_axi_lite_slave.elf"  ./src/led4_axi_lite_slave.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led4_axi_lite_slave.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size led4_axi_lite_slave.elf  |tee "led4_axi_lite_slave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  94180	   2312	  22940	 119432	  1d288	led4_axi_lite_slave.elf
+'Finished building: led4_axi_lite_slave.elf.size'
+' '
+04:20:11 **** Auto Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+'Building file: ../src/led4_axi_lite_slave.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led4_axi_lite_slave.d" -MT"src/led4_axi_lite_slave.d" -o "src/led4_axi_lite_slave.o" "../src/led4_axi_lite_slave.c"
+'Finished building: ../src/led4_axi_lite_slave.c'
+' '
+'Building target: led4_axi_lite_slave.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/lib -o "led4_axi_lite_slave.elf"  ./src/led4_axi_lite_slave.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led4_axi_lite_slave.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size led4_axi_lite_slave.elf  |tee "led4_axi_lite_slave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  94192	   2312	  22940	 119444	  1d294	led4_axi_lite_slave.elf
+'Finished building: led4_axi_lite_slave.elf.size'
+' '
+04:20:28 **** Auto Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+'Building file: ../src/led4_axi_lite_slave.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led4_axi_lite_slave.d" -MT"src/led4_axi_lite_slave.d" -o "src/led4_axi_lite_slave.o" "../src/led4_axi_lite_slave.c"
+'Finished building: ../src/led4_axi_lite_slave.c'
+' '
+'Building target: led4_axi_lite_slave.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/lib -o "led4_axi_lite_slave.elf"  ./src/led4_axi_lite_slave.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led4_axi_lite_slave.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size led4_axi_lite_slave.elf  |tee "led4_axi_lite_slave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  94168	   2312	  22940	 119420	  1d27c	led4_axi_lite_slave.elf
+'Finished building: led4_axi_lite_slave.elf.size'
+' '
+04:22:08 **** Incremental Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+make: `all' Ç…ëŒÇµÇƒçsÇ§Ç◊Ç´éñÇÕÇ†ÇËÇ‹ÇπÇÒ.
+04:23:04 **** Auto Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+'Building file: ../src/led4_axi_lite_slave.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led4_axi_lite_slave.d" -MT"src/led4_axi_lite_slave.d" -o "src/led4_axi_lite_slave.o" "../src/led4_axi_lite_slave.c"
+'Finished building: ../src/led4_axi_lite_slave.c'
+' '
+'Building target: led4_axi_lite_slave.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../led4_axi_lite_slave_bsp/ps7_cortexa9_0/lib -o "led4_axi_lite_slave.elf"  ./src/led4_axi_lite_slave.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led4_axi_lite_slave.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size led4_axi_lite_slave.elf  |tee "led4_axi_lite_slave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  94152	   2312	  22940	 119404	  1d26c	led4_axi_lite_slave.elf
+'Finished building: led4_axi_lite_slave.elf.size'
+' '
+04:23:15 **** Incremental Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+make: `all' Ç…ëŒÇµÇƒçsÇ§Ç◊Ç´éñÇÕÇ†ÇËÇ‹ÇπÇÒ.

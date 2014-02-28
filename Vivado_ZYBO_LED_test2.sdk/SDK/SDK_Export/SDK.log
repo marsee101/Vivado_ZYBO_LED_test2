@@ -1,0 +1,14 @@
+04:17:22.608 INFO  - Processing command line option -hwspec C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.sdk/SDK/SDK_Export/hw/Vivado_ZYBO_LED_test.xml. 
+04:21:13.831 INFO  - FPGA configured successfully with bitstream "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test/Vivado_ZYBO_LED_test.runs/impl_1/Vivado_ZYBO_LED_test_wrapper.bit" 
+04:22:20.531 INFO  - Processor reset is completed for ps7_cortexa9_0 
+04:22:20.631 INFO  - PS initialization will be done as it is not done before. 
+04:22:20.635 INFO  - Running PS initialization.... 
+04:22:21.097 INFO  - ps7_init is completed. 
+04:22:21.197 INFO  - ps7_post_config is completed. 
+04:22:21.297 INFO  - PS Initialization is complete. 
+04:23:27.513 INFO  - Processor reset is completed for ps7_cortexa9_0 
+04:22:32.563 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+04:22:32.610 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

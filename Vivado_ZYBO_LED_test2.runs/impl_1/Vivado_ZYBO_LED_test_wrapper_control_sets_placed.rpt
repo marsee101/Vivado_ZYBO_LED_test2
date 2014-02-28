@@ -1,0 +1,86 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
+| Date         : Fri Feb 28 04:09:11 2014
+| Host         :  running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file Vivado_ZYBO_LED_test_wrapper_control_sets_placed.rpt
+| Design       : Vivado_ZYBO_LED_test_wrapper
+| Device       : xc7z010
+---------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    33 |
+| Minimum Number of register sites lost to control set restrictions |    88 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             123 |           42 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             113 |           30 |
+| Yes          | No                    | No                     |             274 |           74 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              90 |           22 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|                         Clock Signal                        |                                                                   Enable Signal                                                                   |                                                                  Set/Reset Signal                                                                 | Slice Load Count | Bel Load Count |
++-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_push   |                                                                                                                                                   |                1 |              2 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_wrap_boundary_axaddr_r[11]_i_1                                    |                                                                                                                                                   |                2 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_wrap_boundary_axaddr_r[11]_i_1__0                                 |                                                                                                                                                   |                2 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axaddr_incr[0]_i_1                                                |                                                                                                                                                   |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axaddr_incr[0]_i_1__0                                             |                                                                                                                                                   |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/n_0_awaddr_hold[3]_i_1                                                                               | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/clear                                                                                                |                2 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axaddr_wrap[11]_i_1__0                                            |                                                                                                                                                   |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1__1                                               |                                                                                                                                                   |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/n_0_LED_Display_Counter[3]_i_1                                                                       | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/clear                                                                                                |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1__0                                               | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[7]_i_1__0                                               |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1__0                                               |                                                                                                                                                   |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axaddr_wrap[11]_i_1                                               |                                                                                                                                                   |                1 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1                                                  |                                                                                                                                                   |                2 |              4 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/rst_processing_system7_0_100M/U0/SEQ/seq_cnt_en                                                                            | Vivado_ZYBO_LED_test_i/rst_processing_system7_0_100M/U0/clear                                                                                     |                1 |              6 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[7]_i_1                                                  |                                                                                                                                                   |                3 |              8 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                                                                   | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/n_0_areset_d1_i_1                                                     |                4 |              8 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/mhandshake_r | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/s_bresp_acc0 |                2 |              8 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/r_push_r     |                                                                                                                                                   |                4 |             13 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/p_1_in        |                                                                                                                                                   |                4 |             14 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/si_rs_bready                |                                                                                                                                                   |                4 |             14 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/b_push                      |                                                                                                                                                   |                3 |             20 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/p_1_in       |                                                                                                                                                   |                8 |             27 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/p_1_in       |                                                                                                                                                   |                7 |             27 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/s_axi_awready                                                         |                                                                                                                                                   |                8 |             27 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/s_axi_arready                                                         |                                                                                                                                                   |                7 |             27 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/inst/LED_Interval_Resgister0                                                                         | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/clear                                                                                                |                8 |             32 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/n_0_rdata[31]_i_2                                                                                    | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/clear                                                                                                |                7 |             32 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/wr_en0       |                                                                                                                                                   |               10 |             34 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                                                                   | Vivado_ZYBO_LED_test_i/led4_axi_lite_slave_0/clear                                                                                                |               10 |             34 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/p_1_in        |                                                                                                                                                   |               10 |             47 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/si_rs_rready                |                                                                                                                                                   |               11 |             47 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                                                                   | Vivado_ZYBO_LED_test_i/processing_system7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/areset_d1                   |               16 |             71 |
+|  Vivado_ZYBO_LED_test_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                                                                   |                                                                                                                                                   |               43 |            124 |
++-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+
+

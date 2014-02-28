@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Fri Feb 28 04:07:48 2014
+# Process ID: 6624
+# Log file: C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/impl_1/Vivado_ZYBO_LED_test_wrapper.rdi
+# Journal file: C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Vivado_ZYBO_LED_test_wrapper.tcl -notrace
