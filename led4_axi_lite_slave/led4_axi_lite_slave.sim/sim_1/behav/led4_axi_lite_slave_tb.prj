@@ -1,0 +1,5 @@
+verilog work  "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave/led4_axi_lite_slave.srcs/sim_1/imports/led4_axi_lite_slave/simulaiton/AXI4_Master_BFM.v"
+verilog work  "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave/led4_axi_lite_slave.srcs/sources_1/imports/verilog/led4_axi_lite_slave.v"
+verilog work  "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave/led4_axi_lite_slave.srcs/sim_1/imports/led4_axi_lite_slave/simulaiton/AXI4_Lite_Master_BFM.v"
+verilog work  "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave/led4_axi_lite_slave.srcs/sim_1/imports/led4_axi_lite_slave/led4_axi_lite_slave_tb.v"
+verilog work "C:/HDL/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v"

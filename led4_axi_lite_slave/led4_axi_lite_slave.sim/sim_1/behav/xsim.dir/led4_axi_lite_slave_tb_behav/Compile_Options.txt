@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "led4_axi_lite_slave_tb_behav" --prj "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave/led4_axi_lite_slave.sim/sim_1/behav/led4_axi_lite_slave_tb.prj" "work.led4_axi_lite_slave_tb" "work.glbl" 

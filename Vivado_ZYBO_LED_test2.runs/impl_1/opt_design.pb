@@ -39,7 +39,7 @@ BPlease refer to the DRC report (report_drc) for more information.
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.298 . Memory (MB): peak = 841.996 ; gain = 3.2662default:default
+^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.268 . Memory (MB): peak = 844.547 ; gain = 3.1642default:default
 X
 
 Starting %s Task
@@ -69,7 +69,7 @@ B
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.699 . Memory (MB): peak = 845.086 ; gain = 3.0902default:default
+^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.937 . Memory (MB): peak = 849.188 ; gain = 4.6412default:default
 l
 
 Phase %s%s
@@ -91,7 +91,7 @@ A
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 845.086 ; gain = 3.0902default:default
+ZTime (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 849.188 ; gain = 4.6412default:default
 ]
 
 Phase %s%s
@@ -113,7 +113,7 @@ $Phase 3 Sweep | Checksum: 25993ad93
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 845.086 ; gain = 3.0902default:default
+ZTime (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 849.188 ; gain = 4.6412default:default
 A
 5Ending Logic Optimization Task | Checksum: 25993ad93
 *common
@@ -121,7 +121,7 @@ A
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 845.086 ; gain = 3.0902default:default
+ZTime (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 849.188 ; gain = 4.6412default:default
 8
 ,Implement Debug Cores | Checksum: 21ac40b1d
 *common
@@ -140,7 +140,7 @@ A
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 845.086 ; gain = 0.0002default:default
+^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 849.188 ; gain = 0.0002default:default
 Q
 Releasing license: %s
 83*common2"
@@ -173,9 +173,9 @@ A
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2)
 Write XDEF Complete: 2default:default2
-00:00:002default:default2 
-00:00:00.3882default:default2
-846.7032default:default2
+00:00:012default:default2 
+00:00:00.3522default:default2
+850.0352default:default2
 0.0352default:defaultZ17-268
 
 

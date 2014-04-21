@@ -26,7 +26,7 @@
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="Vivado_ZYBO_LED_test_wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/../IP_test/led4_axi_lite_slave"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/led4_axi_lite_slave"/>
     </Config>
   </FileSet>
 </DARoots>

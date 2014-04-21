@@ -1,6 +1,6 @@
-04:23:15 **** Incremental Build of configuration Debug for project led4_axi_lite_slave ****
+21:23:35 **** Incremental Build of configuration Debug for project led4_axi_lite_slave ****
 make all 
 make: `all' ‚É‘Î‚µ‚Äs‚¤‚×‚«–‚Í‚ ‚è‚Ü‚¹‚ñ.
 
-04:23:16 Build Finished (took 488ms)
+21:23:35 Build Finished (took 689ms)
 

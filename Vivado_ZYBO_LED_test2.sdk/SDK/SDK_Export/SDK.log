@@ -12,3 +12,38 @@
 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
 
 04:22:32.610 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+05:05:19.748 INFO  - FPGA configured successfully with bitstream "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/impl_1/Vivado_ZYBO_LED_test_wrapper.bit" 
+05:05:45.351 INFO  - Processor reset is completed for ps7_cortexa9_0 
+05:05:45.596 INFO  - PS initialization will be done as it is not done before. 
+05:05:45.596 INFO  - Running PS initialization.... 
+05:05:46.008 INFO  - ps7_init is completed. 
+05:05:46.108 INFO  - ps7_post_config is completed. 
+05:05:46.208 INFO  - PS Initialization is complete. 
+03:40:54.094 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:19:40.739 INFO  - Processing command line option -hwspec C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.sdk/SDK/SDK_Export/hw/Vivado_ZYBO_LED_test.xml. 
+21:19:45.633 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.sdk/SDK/SDK_Export/hw/Vivado_ZYBO_LED_test.xml. 
+21:19:45.795 INFO  - Copied contents of C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.sdk/SDK/SDK_Export/hw/Vivado_ZYBO_LED_test.xml into \hw_platform_0\system.xml. 
+21:19:48.474 INFO  - Copied contents of C:\Users\Masaaki\Documents\Vivado\Zynq\ZYBO\Vivado_ZYBO_LED_test2\Vivado_ZYBO_LED_test2.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+21:19:48.555 INFO  - Copied contents of C:\Users\Masaaki\Documents\Vivado\Zynq\ZYBO\Vivado_ZYBO_LED_test2\Vivado_ZYBO_LED_test2.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+21:19:48.646 INFO  - Copied contents of C:\Users\Masaaki\Documents\Vivado\Zynq\ZYBO\Vivado_ZYBO_LED_test2\Vivado_ZYBO_LED_test2.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+21:19:48.655 INFO  - Copied contents of C:\Users\Masaaki\Documents\Vivado\Zynq\ZYBO\Vivado_ZYBO_LED_test2\Vivado_ZYBO_LED_test2.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+21:19:48.673 INFO  - Copied contents of C:\Users\Masaaki\Documents\Vivado\Zynq\ZYBO\Vivado_ZYBO_LED_test2\Vivado_ZYBO_LED_test2.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+21:19:49.760 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:19:56.364 INFO  - Updating hardware inferred compiler options for led4_axi_lite_slave. 
+21:19:56.848 INFO  - Clearing existing target manager status. 
+21:23:15.925 INFO  - FPGA configured successfully with bitstream "C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/impl_1/Vivado_ZYBO_LED_test_wrapper.bit" 
+21:23:51.010 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:23:51.110 INFO  - PS initialization will be done as it is not done before. 
+21:23:51.115 INFO  - Running PS initialization.... 
+21:23:51.611 INFO  - ps7_init is completed. 
+21:23:51.710 INFO  - ps7_post_config is completed. 
+21:23:51.810 INFO  - PS Initialization is complete. 
+21:24:17.938 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+21:24:18.072 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+21:24:18.074 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

@@ -8,7 +8,7 @@ set_msg_config -id {HDL 9-1654} -limit 100000
 create_project -in_memory -part xc7z010clg400-1
 set_property target_language Verilog [current_project]
 set_param project.compositeFile.enableAutoGeneration 0
-set_property ip_repo_paths C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave [current_fileset]
+set_property ip_repo_paths C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/led4_axi_lite_slave [current_fileset]
 
 add_files C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/Vivado_ZYBO_LED_test.bd
 set_property used_in_implementation false [get_files -all c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_processing_system7_0_0/Vivado_ZYBO_LED_test_processing_system7_0_0.xdc]

@@ -2,8 +2,8 @@
 # Vivado v2013.4 (64-bit)
 # SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
 # IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
-# Start of session at: Fri Feb 28 04:02:40 2014
-# Process ID: 7016
+# Start of session at: Mon Apr 21 20:28:41 2014
+# Process ID: 808
 # Log file: C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/synth_1/Vivado_ZYBO_LED_test_wrapper.rds
 # Journal file: C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -19,12 +19,12 @@ source Vivado_ZYBO_LED_test_wrapper.tcl
 # create_project -in_memory -part xc7z010clg400-1
 # set_property target_language Verilog [current_project]
 # set_param project.compositeFile.enableAutoGeneration 0
-# set_property ip_repo_paths C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave [current_fileset]
+# set_property ip_repo_paths C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/led4_axi_lite_slave [current_fileset]
 # add_files C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/Vivado_ZYBO_LED_test.bd
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/IP_test/led4_axi_lite_slave'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/led4_axi_lite_slave'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/HDL/Xilinx/Vivado/2013.4/data/ip'.
-add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 201.172 ; gain = 17.613
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 203.953 ; gain = 19.043
 # set_property used_in_implementation false [get_files -all c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_processing_system7_0_0/Vivado_ZYBO_LED_test_processing_system7_0_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_rst_processing_system7_0_100M_0/Vivado_ZYBO_LED_test_rst_processing_system7_0_100M_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_rst_processing_system7_0_100M_0/Vivado_ZYBO_LED_test_rst_processing_system7_0_100M_0_ooc.xdc]
@@ -55,7 +55,7 @@ WARNING: [Synth 8-2507] parameter declaration becomes local in led4_axi_lite_sla
 WARNING: [Synth 8-2507] parameter declaration becomes local in led4_axi_lite_slave with formal parameter declaration list [c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_led4_axi_lite_slave_0_0/work/led4_axi_lite_slave.srcs/sources_1/imports/verilog/led4_axi_lite_slave.v:112]
 WARNING: [Synth 8-2507] parameter declaration becomes local in led4_axi_lite_slave with formal parameter declaration list [c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_led4_axi_lite_slave_0_0/work/led4_axi_lite_slave.srcs/sources_1/imports/verilog/led4_axi_lite_slave.v:117]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:01:22 ; elapsed = 00:01:56 . Memory (MB): peak = 265.684 ; gain = 121.395
+Starting RTL Elaboration : Time (s): cpu = 00:01:23 ; elapsed = 00:02:16 . Memory (MB): peak = 267.816 ; gain = 121.270
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Vivado_ZYBO_LED_test_wrapper' [C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/hdl/Vivado_ZYBO_LED_test_wrapper.v:3]
 INFO: [Synth 8-638] synthesizing module 'Vivado_ZYBO_LED_test' [C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/hdl/Vivado_ZYBO_LED_test.v:4]
@@ -1030,7 +1030,7 @@ WARNING: [Synth 8-350] instance 'rst_processing_system7_0_100M' of module 'Vivad
 INFO: [Synth 8-256] done synthesizing module 'Vivado_ZYBO_LED_test' (35#1) [C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/hdl/Vivado_ZYBO_LED_test.v:4]
 INFO: [Synth 8-256] done synthesizing module 'Vivado_ZYBO_LED_test_wrapper' (36#1) [C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/hdl/Vivado_ZYBO_LED_test_wrapper.v:3]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:02:10 ; elapsed = 00:03:07 . Memory (MB): peak = 332.348 ; gain = 188.059
+Finished RTL Elaboration : Time (s): cpu = 00:02:10 ; elapsed = 00:03:22 . Memory (MB): peak = 334.320 ; gain = 187.773
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -1093,11 +1093,11 @@ Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Masaaki/Docum
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/synth_1/dont_touch.xdc, line 25).
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/synth_1/dont_touch.xdc, line 28).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:38 ; elapsed = 00:03:42 . Memory (MB): peak = 518.855 ; gain = 374.566
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:38 ; elapsed = 00:03:59 . Memory (MB): peak = 520.867 ; gain = 374.320
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:03:42 . Memory (MB): peak = 518.855 ; gain = 374.566
+Finished RTL Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:03:59 . Memory (MB): peak = 520.867 ; gain = 374.320
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:222]
@@ -1135,7 +1135,7 @@ Part Resources:
 DSPs: 80 (col length:40)
 BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:58 ; elapsed = 00:04:06 . Memory (MB): peak = 572.719 ; gain = 428.430
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:57 ; elapsed = 00:04:22 . Memory (MB): peak = 574.656 ; gain = 428.109
 ---------------------------------------------------------------------------------
 
 
@@ -1178,11 +1178,11 @@ Detailed RTL Component Info :
 	   2 Input      6 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 4     
 	   2 Input      4 Bit        Muxes := 9     
-	   2 Input      2 Bit        Muxes := 9     
 	   4 Input      2 Bit        Muxes := 3     
-	   4 Input      1 Bit        Muxes := 8     
+	   2 Input      2 Bit        Muxes := 9     
 	   5 Input      1 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 33    
+	   4 Input      1 Bit        Muxes := 8     
 
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -1520,7 +1520,7 @@ INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instan
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_auto_pc_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.srcs/sources_1/bd/Vivado_ZYBO_LED_test/ip/Vivado_ZYBO_LED_test_auto_pc_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:02:59 ; elapsed = 00:04:07 . Memory (MB): peak = 584.340 ; gain = 440.051
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:59 ; elapsed = 00:04:23 . Memory (MB): peak = 586.270 ; gain = 439.723
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -1534,7 +1534,7 @@ Finished RAM, DSP and Shift Register Reporting
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:03:03 ; elapsed = 00:04:12 . Memory (MB): peak = 609.121 ; gain = 464.832
+Finished Area Optimization : Time (s): cpu = 00:03:03 ; elapsed = 00:04:30 . Memory (MB): peak = 611.090 ; gain = 464.543
 ---------------------------------------------------------------------------------
 
 
@@ -1547,11 +1547,11 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:07 ; elapsed = 00:04:17 . Memory (MB): peak = 756.523 ; gain = 612.234
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:07 ; elapsed = 00:04:36 . Memory (MB): peak = 759.340 ; gain = 612.793
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:08 ; elapsed = 00:04:19 . Memory (MB): peak = 772.547 ; gain = 628.258
+Finished Timing Optimization : Time (s): cpu = 00:03:08 ; elapsed = 00:04:38 . Memory (MB): peak = 775.410 ; gain = 628.863
 ---------------------------------------------------------------------------------
 
 
@@ -1559,7 +1559,7 @@ Finished Timing Optimization : Time (s): cpu = 00:03:08 ; elapsed = 00:04:19 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:12 ; elapsed = 00:04:24 . Memory (MB): peak = 780.703 ; gain = 636.414
+Finished Technology Mapping : Time (s): cpu = 00:03:12 ; elapsed = 00:04:43 . Memory (MB): peak = 782.551 ; gain = 636.004
 ---------------------------------------------------------------------------------
 
 
@@ -1585,7 +1585,7 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Gated Clock Conversion mode: off
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:03:17 ; elapsed = 00:04:29 . Memory (MB): peak = 780.703 ; gain = 636.414
+Finished IO Insertion : Time (s): cpu = 00:03:17 ; elapsed = 00:04:48 . Memory (MB): peak = 782.551 ; gain = 636.004
 ---------------------------------------------------------------------------------
 
 
@@ -1600,7 +1600,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:03:17 ; elapsed = 00:04:29 . Memory (MB): peak = 780.703 ; gain = 636.414
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:17 ; elapsed = 00:04:48 . Memory (MB): peak = 782.551 ; gain = 636.004
 ---------------------------------------------------------------------------------
 
 
@@ -1608,7 +1608,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:03:17 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:18 ; elapsed = 00:04:30 . Memory (MB): peak = 780.703 ; gain = 636.414
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:17 ; elapsed = 00:04:49 . Memory (MB): peak = 782.551 ; gain = 636.004
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -1680,11 +1680,11 @@ Report Instance Areas:
 |9     |      U0                            |proc_sys_reset__parameterized0                         |    65|
 +------+------------------------------------+-------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:18 ; elapsed = 00:04:30 . Memory (MB): peak = 780.703 ; gain = 636.414
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:18 ; elapsed = 00:04:49 . Memory (MB): peak = 782.551 ; gain = 636.004
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:03:18 ; elapsed = 00:04:30 . Memory (MB): peak = 780.703 ; gain = 636.414
+Synthesis Optimization Complete : Time (s): cpu = 00:03:18 ; elapsed = 00:04:49 . Memory (MB): peak = 782.551 ; gain = 636.004
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
@@ -1698,9 +1698,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 221 Infos, 149 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:36 ; elapsed = 00:04:49 . Memory (MB): peak = 1158.672 ; gain = 957.500
+synth_design: Time (s): cpu = 00:03:36 ; elapsed = 00:05:03 . Memory (MB): peak = 1160.543 ; gain = 956.590
 # write_checkpoint Vivado_ZYBO_LED_test_wrapper.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # report_utilization -file Vivado_ZYBO_LED_test_wrapper_utilization_synth.rpt -pb Vivado_ZYBO_LED_test_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.097 . Memory (MB): peak = 1158.672 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Feb 28 04:07:45 2014...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.341 . Memory (MB): peak = 1160.543 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 20:34:08 2014...

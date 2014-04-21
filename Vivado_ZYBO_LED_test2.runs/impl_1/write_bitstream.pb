@@ -52,9 +52,12 @@ j
 j
 QWebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
 118*projectZ1-118
-s
-ZWebTalk report has not been sent to Xilinx. Please check your network and proxy settings.
-185*commonZ17-185
+µ
+†'%s' has been successfully sent to Xilinx on %s. For additional details about this file, please refer to the Webtalk help file at %s.
+186*common2•
+€C:/Users/Masaaki/Documents/Vivado/Zynq/ZYBO/Vivado_ZYBO_LED_test2/Vivado_ZYBO_LED_test2.runs/impl_1/usage_statistics_webtalk.xml2default:default2,
+Mon Apr 21 20:37:54 20142default:default2M
+9C:/HDL/Xilinx/Vivado/2013.4/doc/webtalk_introduction.html2default:defaultZ17-186
 Q
 Releasing license: %s
 83*common2"
@@ -63,10 +66,10 @@ Q
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
-00:00:322default:default2
-00:00:452default:default2
-1224.3952default:default2
-265.3322default:defaultZ17-268
+00:00:302default:default2
+00:00:542default:default2
+1227.7812default:default2
+262.3132default:defaultZ17-268
 
 
 End Record

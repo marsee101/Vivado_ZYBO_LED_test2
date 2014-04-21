@@ -123,3 +123,18 @@ arm-xilinx-eabi-size led4_axi_lite_slave.elf  |tee "led4_axi_lite_slave.elf.size
 04:23:15 **** Incremental Build of configuration Debug for project led4_axi_lite_slave ****
 make all 
 make: `all' に対して行うべき事はありません.
+05:05:33 **** Incremental Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+make: `all' に対して行うべき事はありません.
+21:19:46 **** Build of project led4_axi_lite_slave_bsp ****
+make -k all 
+'Finished building libraries'
+21:19:49 **** Auto Build of project led4_axi_lite_slave_bsp ****
+make -k all 
+'Finished building libraries'
+21:19:54 **** Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+make: `all' に対して行うべき事はありません.
+21:23:35 **** Incremental Build of configuration Debug for project led4_axi_lite_slave ****
+make all 
+make: `all' に対して行うべき事はありません.

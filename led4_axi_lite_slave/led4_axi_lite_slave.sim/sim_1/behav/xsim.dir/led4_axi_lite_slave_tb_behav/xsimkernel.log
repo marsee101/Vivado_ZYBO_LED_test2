@@ -1,0 +1,5 @@
+Running: xsim.dir/led4_axi_lite_slave_tb_behav/xsimk.exe -simmode gui -wdb led4_axi_lite_slave_tb_behav.wdb -simrunnum 0 -socket 58869
+Design successfully loaded
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation CPU Usage: 124 ms
